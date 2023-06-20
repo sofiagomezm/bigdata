@@ -162,7 +162,7 @@ public class Farmacia {
 
     @Override
     public String toString() {
-        return "Farmacia{" + "id=" + id + ", fecha=" + fecha + ", local_id=" + local_id + ", fk_region=" + fk_region + ", fk_comuna=" + fk_comuna + ", fk_localidad=" + fk_localidad + ", local_nombre=" + local_nombre + ", comuna_nombre=" + comuna_nombre + ", localidad_nombre=" + localidad_nombre + ", local_direccion=" + local_direccion + ", funcionamiento_hora_apertura=" + funcionamiento_hora_apertura + ", funcionamiento_hora_cierre=" + funcionamiento_hora_cierre + ", local_telefono=" + local_telefono + ", local_lat=" + local_lat + ", local_lng=" + local_lng + ", funcionamiento_dia=" + funcionamiento_dia + "}';
+        return "Farmacia{" + "id=" + id + ", fecha=" + fecha + ", local_id=" + local_id + ", fk_region=" + fk_region + ", fk_comuna=" + fk_comuna + ", fk_localidad=" + fk_localidad + ", local_nombre=" + local_nombre + ", comuna_nombre=" + comuna_nombre + ", localidad_nombre=" + localidad_nombre + ", local_direccion=" + local_direccion + ", funcionamiento_hora_apertura=" + funcionamiento_hora_apertura + ", funcionamiento_hora_cierre=" + funcionamiento_hora_cierre + ", local_telefono=" + local_telefono + ", local_lat=" + local_lat + ", local_lng=" + local_lng + ", funcionamiento_dia=" + funcionamiento_dia + '}';
     }
     
     public String toCSV()
