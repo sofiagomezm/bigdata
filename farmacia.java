@@ -167,7 +167,7 @@ public class Farmacia {
     
     public String toCSV()
     {
-        return "" + id + "," + fecha + "," + key + "," + local_id + "," + fk_region + "," + fk_comuna + "," + fk_localidad + "," + local_nombre + "," +
+        return "" + id + ","  + local_id + "," + fk_region + "," + fk_comuna + "," + fk_localidad + "," + local_nombre + "," +
                 comuna_nombre + "," + localidad_nombre + "," + local_direccion + "," + funcionamiento_hora_apertura + "," + funcionamiento_hora_cierre + "," + local_telefono + "," + local_lat + "," +
                 local_lng + "," + funcionamiento_dia + "";
     }
